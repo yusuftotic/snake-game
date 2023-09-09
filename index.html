@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Snake Game</title>
+</head>
+
+<body>
+  <div id="container" class="container">
+
+    <div id="score-board" class="score-board">
+      <div class="score-wrapper">
+        <p class="score-heading">Score</p>
+        <p id="score" class="score">-</p>
+      </div>
+      
+      <div class="score-wrapper">
+        <p class="score-heading">High Score</p>
+        <p id="high-score" class="score">-</p>
+      </div>
+    </div>
+
+    <div id="game-area" class="game-area">
+      <!-- <div class="food"></div> -->
+    </div>
+
+  </div>
+
+  <div id="ui-container" class="ui-container">
+    <div id="ui" class="ui">
+      <h2 id="ui-heading" class="ui-heading">Game Over!</h2>
+      <div class="ui-score-container">
+        <div id="ui-score-wrapper" class="ui-score-wrapper">
+          <p class="ui-score-heading">Score</p>
+          <p id="ui-score" class="ui-score">-</p>
+        </div>
+        <div id="ui-high-score-wrapper" class="ui-score-wrapper">
+          <p class="ui-score-heading">High Score</p>
+          <p id="ui-high-score" class="ui-score">-</p>
+        </div>
+      </div>
+      <button type="button" id="ui-button" class="ui-button">Play</button>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="assets/js/snake.js"></script>
+  <script type="text/javascript" src="assets/js/food.js"></script>
+  <script type="text/javascript" src="assets/js/game.js"></script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
